@@ -1,0 +1,77 @@
+/* comentarios en css */
+body{
+    font-family: 'Fredoka One', cursive;
+    /* se agrega a body para que se aplique a todo la pagina / este estilo se encontro en google font*/
+}
+h1{
+    color: rgb(123, 190, 174);
+    /* SELECCION DE COLOR POR NOMBRE */
+    background-color: black;
+    text-align: center;
+    /* etiqueta para alinear texto ( seleccion por etiqueta */
+    font-size: 100px;
+    /*  tamano de letra = etiqueta fonte-size*/
+    letter-spacing: 15px;
+        /*  distancia entre letras = etiqueta letter-spacing*/
+
+    word-spacing: 50px;
+        /*  distancia entre palabras = etiqueta word-spacing*/
+    font-family: ;
+    /*serif: Times New Roman; sanserif: Arial; scrip:   ; monespace:  ; fantastic:   BUSCAR FUENTES EN GOOGLOE FONT*/   
+
+}
+a{
+    text-decoration: none;
+    /*  enlace externo "a" ; para retirar undeline  */
+
+}
+nav{
+    color: black;
+    background-color: rgb(123, 190, 174);
+    text-align: center;
+   
+
+}
+h2{
+    color: black;
+    /* SELECCION DE COLOR POR CODIGO (COOLORS.CO) en exadecimales */
+    background-color: rgba(50, 129, 165, 0.733);
+    /* SELECCION DE COLORES de fondo POR RGB ( red green blue)seguido por grado de tonalidad */
+    text-align: center;
+}
+
+section{
+    background-color: rgb(0, 204, 255);   
+    text-align: center;
+}
+
+aside{
+    background-color: rgb(253, 65, 244);
+    text-align: center;
+}
+
+footer{
+
+    background-color: yellow;
+    text-align: center;
+}
+/* SELECTOR DE COLOR UNIVERSAL es " * " eg. *{color:red;} */
+/*SELECTOR DE COLOR MULTILE eg. h1,h2,p {color:red} */
+/*SELECCION DE COLOR POR GERARQUIA...*/
+
+section p{
+    color: black;
+    font-weight: bold;
+    /*  etiqueta font-weight = intensidad de letras */
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration: capitals;
+}
+/* SELECCION DE COLOR POR HERENCIA eg. parte + parte { color: color elegido;}
+
+/* SELECTOR POR ID se usa para programacion y enlaces internos eg. < p id="red"> #red */
+/* SELECTOR POR CLASS <p class="rojo"> .rojo*/
+
+
+
+
